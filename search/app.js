@@ -1,6 +1,6 @@
 const DATA_FILES = [
-  { file: 'comparators.yaml', label: 'Comparators' },
-  { file: 'editors.yaml', label: 'Editors' },
+  { file: 'comparators.yaml', label: 'Comparateurs' },
+  { file: 'editors.yaml', label: 'Editeurs' },
   { file: 'general.yaml', label: 'General' },
   { file: 'vpc.yaml', label: 'VPC' }
 ];
@@ -152,18 +152,18 @@ function getCountryLabel(value) {
   const mapping = {
     fr: 'France',
     france: 'France',
-    be: 'Belgium',
-    belgium: 'Belgium',
-    de: 'Germany',
-    germany: 'Germany',
-    gb: 'United Kingdom',
-    uk: 'United Kingdom',
-    england: 'United Kingdom',
-    'united-kingdom': 'United Kingdom',
-    us: 'United States',
-    usa: 'United States',
-    'united-states': 'United States',
-    world: 'World',
+    be: 'Belgique',
+    belgium: 'Belgique',
+    de: 'Allemagne',
+    germany: 'Allemagne',
+    gb: 'Angleterre',
+    uk: 'Angleterre',
+    england: 'Angleterre',
+    'united-kingdom': 'Angleterre',
+    us: 'USA',
+    usa: 'USA',
+    'united-states': 'USA',
+    world: 'International',
     international: 'International'
   };
 
@@ -187,7 +187,7 @@ function renderWebsites(query) {
     return matchesCategory && matchesTags && matchesCountry;
   });
 
-  statusEl.textContent = `${filteredSites.length} / ${websites.length} websites visible. The current search text will be appended to each URL. Allow 'pop-up & redirects' in browser settings for 'Open All' button to work.`;
+  statusEl.textContent = `${filteredSites.length} / ${websites.length} sites visibles. La recherche sera ajoutée au sein de chaque URL (permettant d'utiliser un CTRL+CLICK). Autorisez au niveau du navigateur la fonction 'pop-up & redirects' dans les préférences pour que le bouton 'Ouvrir tout' fonctionne (sur tous les éléments sélectionnés).`;
 
   const fragment = document.createDocumentFragment();
 
@@ -259,7 +259,7 @@ async function loadWebsites() {
     renderSelectOptions(categoryFilter, allCategories);
     renderSelectOptions(countryFilter, allCountries);
     renderWebsites(searchInput.value);
-    statusEl.textContent = `${websites.length} websites loaded from the data folder. The current search text will be appended to each URL. Allow 'pop-up & redirects' in browser settings for 'Open All' button to work.`;
+    // statusEl.textContent = `${filteredSites.length} / ${websites.length} sites visibles. La recherche sera ajoutée au sein de chaque URL. Autorisez au niveau du navigateur la fonction 'pop-up & redirects' dans les préférences pour que le bouton 'Ouvrir tout' fonctionne.`;
   } catch (error) {
     console.error(error);
     statusEl.textContent = 'Unable to load the data files. Please open the page through a local web server.';

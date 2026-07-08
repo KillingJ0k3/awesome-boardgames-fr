@@ -10,11 +10,11 @@
     <main class="container">
       <header class="toolbar">
         <label class="search-field" for="searchInput">
-          <span class="sr-only">Search</span>
+          <span class="sr-only">Recherche</span>
           <input
             id="searchInput"
             type="search"
-            placeholder="Type a keyword to update URLs"
+            placeholder="Saisissez des mots-clés (qui seront ajoutés aux URL ci-dessous)"
             autocomplete="off"
           />
         </label>
@@ -22,29 +22,29 @@
 
       <div class="filters">
         <label class="filter-field" for="countryFilter">
-          <span class="filter-label">Countries</span>
+          <span class="filter-label">Pays</span>
           <select id="countryFilter" multiple></select>
-          <button id="clearCountriesButton" type="button">Clear countries</button>
+          <button id="clearCountriesButton" type="button">RAZ</button>
         </label>
         <label class="filter-field" for="categoryFilter">
-          <span class="filter-label">Categories</span>
+          <span class="filter-label">Catégories</span>
           <select id="categoryFilter" multiple></select>
-          <button id="clearCategoriesButton" type="button">Clear categories</button>
+          <button id="clearCategoriesButton" type="button">RAZ</button>
         </label>
         <label class="filter-field" for="tagFilter">
           <span class="filter-label">Tags</span>
           <select id="tagFilter" multiple></select>
-          <button id="clearTagsButton" type="button">Clear tags</button>
+          <button id="clearTagsButton" type="button">RAZ</button>
         </label>
         <div class="toolbar-actions">
-          <button id="selectAllButton" type="button">Select all</button>
-          <button id="deselectAllButton" type="button">Deselect all</button>
+          <button id="selectAllButton" type="button">Sélectionner tout</button>
+          <button id="deselectAllButton" type="button">Déselectionner tout</button>
           <!-- disabled class="disabled" -->
-          <button id="openAllButton" type="button">Open all</button>
+          <button id="openAllButton" type="button">Ouvrir tout</button>
         </div>
       </div>
 
-      <p id="status" class="status">Loading websites…</p>
+      <p id="status" class="status">Chargement…</p>
       <div id="sitesList" class="sites-grid" aria-live="polite"></div>
     </main>
 

@@ -1,8 +1,8 @@
 # {{ .Title }}
 
 <p align="center">
-  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/"><strong>:game_die: Lien</strong></a> •
-  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">:mag: Aide à la recherche</a>
+  :game_die: <a href="https://killingj0k3.github.io/awesome-boardgames-fr/"><strong>Lien</strong></a> •
+  :mag: <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">Aide à la recherche</a>
 </p>
 
 <a name="contents"></a>
@@ -27,7 +27,7 @@
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### Allemagne
 
@@ -35,7 +35,7 @@
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### Belgique
 
@@ -43,7 +43,7 @@
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### International (autres)
 
@@ -51,7 +51,7 @@
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ## Boutiques d'éditeurs
 
@@ -61,7 +61,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [{{ .name }}]({{ .url }}) [{{ .country }}]{{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ## Comparateurs
 
@@ -71,7 +71,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### International
 
@@ -79,7 +79,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 
 ## Général
@@ -90,5 +90,5 @@ Sites généraux en lien avec le jeu de société
 - [{{ .name }}]({{ .url }}) [{{ .country }}]{{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
