@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - "master"
+    paths:
+      - 'data/**'
   pull_request:
+    paths:
+      - 'data/**'
 
 permissions:
   contents: write
