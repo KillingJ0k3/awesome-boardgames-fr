@@ -1,8 +1,8 @@
 # Awesome Boardgames (FR)
 
 <p align="center">
-  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/"><strong>:game_die: Lien</strong></a> •
-  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">:mag: Aide à la recherche</a>
+  :game_die: <a href="https://killingj0k3.github.io/awesome-boardgames-fr/"><strong>Lien</strong></a> •
+  :mag: <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">Aide à la recherche</a>
 </p>
 
 <a name="contents"></a>
@@ -80,14 +80,14 @@
 - [Zatu](https://zatu.com/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### Allemagne
 
 - [bestespielzeugvault](https://www.bestespielzeugvault.com/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### Belgique
 
@@ -96,7 +96,7 @@
 - [Les Idées Bleues](https://www.lesideesbleues.be/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### International (autres)
 
@@ -107,7 +107,7 @@
 - [The Game Crafter](https://www.thegamecrafter.com/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ## Boutiques d'éditeurs
 
@@ -128,7 +128,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [Timashëv Publishing](https://timashov.games/) [international]
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ## Comparateurs
 
@@ -138,7 +138,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [Promo JDS](https://promojds.fr/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 ### International
 
@@ -147,7 +147,7 @@ Editeurs ayant une boutique/shop en ligne.
 - [TableTopFinder](https://www.tabletopfinder.eu/)
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
 
 ## Général
@@ -163,5 +163,5 @@ Sites généraux en lien avec le jeu de société
 - [Tric-Trac](https://forum.trictrac.net/) [fr]
 
 
-**[⬆ revenir au début](#contents)**
+⬆ **[revenir au début](#contents)**
 
