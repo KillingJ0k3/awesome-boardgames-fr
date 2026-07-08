@@ -1,0 +1,38 @@
+- name: Board Game Geek
+  url: https://boardgamegeek.com/
+  search: "/geeksearch.php?action=search&objecttype=boardgame&q="
+  country: international
+  description: Site/catalogue de référence sur les jeux, leurs éditions, les fichiers complémentaires, etc.
+
+- name: La Veille Ludique
+  url: https://www.boardgame.fr/
+  search: "/?s="
+  country: fr
+
+- name: Tric-Trac
+  url: https://forum.trictrac.net/
+  search: "/search?q="
+  country: fr
+
+- name: CWOWD
+  url: https://forum.cwowd.com/
+  search: "/search?q="
+  country: fr
+
+- name: Okkazeo
+  url: https://www.okkazeo.com/
+  search: "/jeux/resultats?rech_nom="
+  country: fr
+  description: Site de ventes d'occasions, spécialisé sur les jeux
+
+- name: Le Bon Coin
+  url: https://www.leboncoin.fr/
+  search: "/recherche?kst=k&text="
+  country: fr  
+  description: Site de petites annonces général, mais contenant également de nombreuses ventes de jeux
+
+- name: Player Elimination
+  url: https://playerelimination.com/
+  search: "/?s="
+  country: fr
+

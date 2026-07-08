@@ -1,0 +1,332 @@
+- name: Case Départ
+  url: https://casedepart.be/
+  search: "/fr/catalogueliste-recherche="
+  country: be
+
+- name: Golden Meeple
+  url: https://www.goldenmeeple.be/
+  search: "/?post_type=product&dgwt_wcas=1&s="
+  country: be
+
+- name: Les Idées Bleues
+  url: https://www.lesideesbleues.be/
+  search: "/website/search?order=name+asc&search="
+  country: be
+
+- name: Archi Chouette
+  url: https://archi-chouette.fr/
+  country: fr
+
+- name: Board And Dice
+  url: https://boardanddice.com/
+  search: "/?s="
+  country: international
+
+- name: Des Cartes et des Jeux
+  url: https://descartesetdesjeux.com/en/
+  country: fr
+
+- name: La Caverne du Gobelin
+  url: https://cavernedugobelin.fr/
+  search: "/products/search/"
+  country: fr
+
+- name: Fungames
+  url: https://fungamesnet.fr/
+  search: "/module/iqitsearch/searchiqit?s="
+  country: fr
+
+- name: Invest Collect
+  url: https://investcollect.com/
+  search: "/#3832/fullscreen/product/m=or&q="
+  country: fr
+
+- name: IPA Gameshop
+  url: https://ipa-gameshop.com/
+  search: "/en/recherche?controller=search&s="
+  country: international
+
+- name: Le Baron Perché
+  url: https://lebaronperche.fr/boutique/
+  country: fr
+
+- name: Le Cercle du Jeu
+  url: https://lecercledujeu.fr/
+  search: "/?post_type=product&dgwt_wcas=1&s="
+  country: fr
+
+- name: Le Dé Compté
+  url: https://ledecompte.fr/
+  search: "/?post_type=product&s="
+  country: fr
+
+- name: Le Lutin Ludique
+  url: https://lutin-ludique.com/
+  search: "/recherche?controller=search&orderby=position&orderway=desc&submit_search=&search_query="
+  country: fr
+
+- name: Boutique-Meisia
+  url: https://shop.cafemeisia.com/
+  search: "/?post_type=product&dgwt_wcas=1&s="
+  country: fr
+
+- name: AdayAgame
+  url: https://www.adayagame.fr/
+  search: "/component/search/?searchphrase=all&searchword="
+  country: fr
+
+- name: Agora Jeux
+  url: https://www.agorajeux.com/
+  tags: ["wargames", "figurines", "warhammer"]
+  search: "/fr/#f485/classic/m=and&q="
+  country: fr
+
+- name: L'Antre Temps
+  url: https://www.antretemps.com/
+  search: "/dhtml/resultat_recherche.php?keywords="
+  country: fr
+
+- name: BCD Jeux
+  url: https://www.bcd-jeux.fr/
+  search: "/?mot_q="
+  country: fr
+
+- name: La Chaumière du Bout des Rêves
+  url: https://www.chaumiere.org/
+  search: "/search-results-page/"
+  country: fr
+
+- name: La Crique aux Jeux
+  url: https://www.crique-aux-jeux.fr/
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Esprit Jeu
+  url: https://www.espritjeu.com/
+  search: "/dhtml/resultat_recherche.php?keywords="
+  country: fr
+
+# Not considered as there are dbouts about this site ...
+#- name: Jeux Malins
+#  url: https://www.jeuxmalins.com/
+#  search: "/?s="
+#  country: fr
+
+- name: La Fourmi Ludique
+  url: https://www.lafourmiludique.fr/
+  search: "/dhtml/resultat_recherche.php?ok=%A0&keywords="
+  country: fr
+
+- name: Légion Distribution
+  url: https://www.legion-distribution.com/
+  search: "/jolisearch?s="
+  country: fr
+
+- name: Le Passe-Temps
+  url: https://www.le-passe-temps.com/
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Le Temple du Hobby
+  url: https://www.letempleduhobby.com/
+  search: "/s/"
+  country: fr
+
+- name: Ludiworld
+  url: https://www.ludiworld.com/
+  search: "/recherche?controller=search&orderby=position&orderway=desc&submit_search=&search_query="
+  country: fr
+
+- name: Ludocortex
+  url: https://www.ludocortex.fr/
+  search: "/jolisearch?s="
+  country: fr
+
+- name: LUDUM
+  url: https://www.ludum.fr/
+  search: "/rechercher?s="
+  country: fr
+
+- name: Monsieur Dé
+  url: https://www.monsieurde.com/
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Origames
+  url: https://www.origames.fr/
+  search: "/?post_type=product&dgwt_wcas=1&s="
+  country: fr
+
+- name: Parkage
+  url: https://www.parkage.com/
+  search: "/fr/search?text="
+  country: fr
+
+- name: Philibert
+  url: https://www.philibertnet.com/
+  tags: ["jdr", "jdp", "figurines", "warhammer", "classiques"]
+  search: "/fr/#e210/fullscreen/product/m=and&q="
+  country: fr
+
+- name: Play-In
+  url: https://www.play-in.com/
+  search: "/fr/recherche?q="
+  country: fr
+
+- name: The Game Crafter
+  url: https://www.thegamecrafter.com/
+  search: "/search?query="
+  country: international
+
+- name: Trollune
+  url: https://www.trollune.fr/
+  search: "recherche/?q="
+  country: fr
+
+- name: Ultra Jeux
+  url: https://www.ultrajeux.com/
+  search: "/search3.php?submit=Ok&text="
+  country: fr
+
+- name: Un Deux Trois Jeux
+  url: https://www.undeuxtroisjeux.com/
+  search: "/search?type=product&q="
+  country: fr
+
+- name: Variantes
+  url: https://www.variantes.com/
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Zatu
+  url: https://zatu.com/
+  search: "/en-fr/search?options%5Bprefix%5D=last&q="
+  country: fr
+
+- name: King Jouet
+  url: https://www.king-jouet.com/
+  search: "?recherche="
+  country: fr
+
+- name: Click 29 Hobby
+  url: https://clic29-hobby.fr/
+  tags: ["figurines", "warhammer"]
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Wargame Spirit
+  url: https://wargamespirit.fr/
+  tags: ["figurines", "warhammer"]  
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Hobby Place
+  url: https://myhobby.place/fr/
+  tags: ["figurines", "warhammer"]
+  search: "/fr/#5b90/fullscreen/m=and&q="
+  country: fr
+
+- name: Hobby Max
+  url: https://www.hobby-max.fr/
+  tags: ["figurines", "warhammer"]
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: HEXASIM
+  url: https://www.hexasim.com/
+  tags: ["wargames"]
+  search: "/index.php?page=recherche&recherche="
+  country: fr
+
+- name: Store Karma Games
+  url: https://store.karma-games.com/
+  search: "/search?options%5Bprefix%5D=last&q="
+  country: international
+
+- name: CFLudique
+  url: https://www.cfludique.com/
+  search: "/en/search?controller=search&s="
+  country: international
+
+- name: bestespielzeugvault
+  url: https://www.bestespielzeugvault.com/
+  search: "?post_type=product&s="
+  country: de
+
+- name: Starplayer
+  url: https://www.starplayer.fr/
+  search: "/recherche?controller=search&s="
+  tags: ["jdp", "jdr", "wargames", "figurines", "warhammer", "jdc"]
+  country: fr
+
+- name: Ludifolie
+  url: https://www.ludifolie.com/
+  search: "/#20c7/fullscreen/m=and&q="
+  tags: ["jdp", "jdr", "wargames", "figurines", "warhammer", "jdc"]
+  country: fr  
+
+- name: La Pioche
+  url: https://boutiquelapioche.com/
+  search: "/search?q="
+  country: fr
+
+- name: Fantastik
+  url: https://fantastik.fr/
+  search: "/recherche?controller=search&s="
+  country: fr  
+
+- name: Goupiya  
+  url: https://www.goupiya.com/fr/
+  search: "/recherche?controller=search&orderby=position&orderway=desc&submit_search=&search_query="
+  country: fr
+
+- name: L'Oeuf Cube
+  url: https://oeufcube.com/
+  search: "/module/ambjolisearch/jolisearch?s="
+  tags: ["classiques", "jdp", "jdr", "wargames", "figurines", "warhammer", "jdc"]
+  country: fr  
+
+- name: Les 7 Royaumes
+  url: https://les7royaumes.com/
+  tags: ["jdp", "jdr", "figurines", "warhammer", "jdc"]
+  country: fr   
+
+- name: Loufoque
+  url: https://shop.loufoque.fr/
+  search: "/search?options%5Bprefix%5D=last&q="
+  country: fr  
+
+- name: Le Temple du Jeu
+  url: https://www.letempledujeu.fr/
+  country: fr  
+
+- name: Ludorium
+  url: https://www.leludorium.fr/  
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name: Meepland
+  url: https://www.meepland.fr/
+  search: "/recherche?controller=search&s="
+  country: fr  
+
+- name: Le Repaire du Dragon
+  url: https://www.lerepairedudragon.fr/
+  search: "/?mot_q="
+  country: fr
+
+- name: Au Coin du Dé 
+  url: https://aucoindude.com/
+  search: "/?post_type=product&s="
+  country: fr  
+
+- name: Sortilèges
+  url: https://www.sortileges.fr/
+  search: "/website/search?order=name+asc&search="
+  tags: ["classiques", "jdp", "jdr", "figurines", "warhammer", "jdc"]
+  country: fr  
+
+- name: Ludik
+  url: https://boutique-ludik.fr/
+  search: "/boutique/?recherche=1&woof_text="
+  country: fr

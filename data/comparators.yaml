@@ -1,0 +1,29 @@
+- name: Knapix
+  url: https://www.knapix.com/
+  search: "/comparateur.php?orig=header&nom_jeu="
+  country: fr
+
+- name: Promo JDS
+  url: https://promojds.fr/
+  search: "/?page=1&sort=deal.createdAt&direction=desc&search="
+  country: fr
+
+- name: Board Game Oracle
+  url: https://www.boardgameoracle.com/
+  search: "/boardgame/search?q="
+  country: international
+
+# - name: BoardGame.deals
+#   url: https://boardgame.deals/  
+#   search: "/search-results/"
+#   country: international
+
+- name: TableTopFinder
+  url: https://www.tabletopfinder.eu/
+  search: "/en/boardgame/search?query="
+  country: international
+
+- name: BoardGamesPrices
+  url: https://boardgameprices.com/
+  search: "/item/search?search="
+  country: international

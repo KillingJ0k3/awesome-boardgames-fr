@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board Games Search</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="toolbar">
+        <label class="search-field" for="searchInput">
+          <span class="sr-only">Search</span>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Type a keyword to update URLs"
+            autocomplete="off"
+          />
+        </label>
+      </header>
+
+      <div class="filters">
+        <label class="filter-field" for="countryFilter">
+          <span class="filter-label">Countries</span>
+          <select id="countryFilter" multiple></select>
+          <button id="clearCountriesButton" type="button">Clear countries</button>
+        </label>
+        <label class="filter-field" for="categoryFilter">
+          <span class="filter-label">Categories</span>
+          <select id="categoryFilter" multiple></select>
+          <button id="clearCategoriesButton" type="button">Clear categories</button>
+        </label>
+        <label class="filter-field" for="tagFilter">
+          <span class="filter-label">Tags</span>
+          <select id="tagFilter" multiple></select>
+          <button id="clearTagsButton" type="button">Clear tags</button>
+        </label>
+        <div class="toolbar-actions">
+          <button id="selectAllButton" type="button">Select all</button>
+          <button id="deselectAllButton" type="button">Deselect all</button>
+          <!-- disabled class="disabled" -->
+          <button id="openAllButton" type="button">Open all</button>
+        </div>
+      </div>
+
+      <p id="status" class="status">Loading websites…</p>
+      <div id="sitesList" class="sites-grid" aria-live="polite"></div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

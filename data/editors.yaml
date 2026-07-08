@@ -1,0 +1,60 @@
+- name: Monolith Edition
+  url: https://monolithedition.com/boutique/
+  search: "/?s="
+  country: fr
+
+- name: Orange Nebula
+  url: https://orangenebula.com/pages/shop
+  search: "/search?type=product&filter.p.product_type=&q="
+  country: international
+
+- name: Lucky Duck Games
+  url: https://luckyduckgames.com/
+  search: "/france/recherche?controller=search&s="
+  country: international
+
+- name: Black Book Editions
+  url: https://shop.black-book-editions.fr/
+  search: "/catalogue/recherche?nameLike="
+  country: fr
+
+- name: Ludus Magnus Studio
+  url: https://shop.ludusmagnusstudio.com/
+  country: international
+
+- name: Sitdown Games
+  url: https://sitdown-games.com/
+  search: "?post_type=product&dgwt_wcas=1&s="
+  country: international
+
+- name: Sirling Games
+  url: https://www.sirlingames.com/store
+  country: international
+
+- name: Timashëv Publishing
+  url: https://timashov.games/
+  search: "/?s="
+  country: international
+
+- name: Grrre Shop
+  url: https://grrre-shop.com/
+  country: international
+
+- name: DLP Games
+  url: https://www.dlp-games.de/
+  search: "/search?query="
+  country: de
+
+- name: Asmodée  
+  url: https://www.asmodee.fr/
+  search: "?s="
+  country: fr
+
+- name: All Play
+  url: https://www.allplay.com/
+  country: international
+
+- name: Altered
+  url: https://altered.re/
+  country: international
+  
