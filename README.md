@@ -1,5 +1,10 @@
 # Awesome Boardgames (FR)
 
+<p align="center">
+  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/"><strong>:game_die: Lien</strong></a> •
+  <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">:mag: Aide à la recherche</a>
+</p>
+
 <a name="contents"></a>
 
 - [Awesome Boardgames (FR)](#awesome-boardgames-fr)
