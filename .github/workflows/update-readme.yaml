@@ -1,0 +1,46 @@
+name: update-readme
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Update README.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.26'
+
+      - name: Cache Go modules
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.cache/go-build
+            ${{ env.GOMODCACHE }}
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Install dependencies
+        run: go mod download
+
+      - name: Build all binary
+        run: |
+          go run ./updater/
+
+      - name: Push back modified files
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+            # Optional. Commit message for the created commit.
+            commit_message: Commit automatique du fichier README.md
