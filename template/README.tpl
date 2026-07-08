@@ -5,7 +5,7 @@
   :mag: <a href="https://killingj0k3.github.io/awesome-boardgames-fr/search/">Aide à la recherche</a>
 </p>
 
-[![Video du moteur de recherche](https://raw.githubusercontent.com/KillingJ0k3/awesome-boardgames-fr/master/search.jpg)](https://raw.githubusercontent.com/KillingJ0k3/awesome-boardgames-fr/master/search.mp4)
+![video du moteur de recherche](https://raw.githubusercontent.com/KillingJ0k3/awesome-boardgames-fr/master/search.gif)
 
 <a name="contents"></a>
 
