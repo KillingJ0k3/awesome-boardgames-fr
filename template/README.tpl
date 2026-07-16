@@ -49,6 +49,8 @@
 
 ### International (autres)
 
+Quelques sites supplémentaires à l'international (en dehors des pays déjà listés ci-avant).
+
 {{ range .VPC_WORLD -}}
 - [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
 {{ end }}
@@ -66,6 +68,8 @@ Editeurs ayant une boutique/shop en ligne.
 ⬆ **[revenir au début](#contents)**
 
 ## Comparateurs
+
+Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule page de résultats issus de toutes les boutiques qu'ils référencent. Malheureusement, aucun à ce jour ne référence toutes les boutiques disponibles.
 
 ### France
 

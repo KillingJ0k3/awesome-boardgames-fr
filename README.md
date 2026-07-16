@@ -35,6 +35,7 @@
 - [Des Cartes et des Jeux](https://descartesetdesjeux.com/en/)
 - [Esprit Jeu](https://www.espritjeu.com/)
 - [Fantastik](https://fantastik.fr/)
+- [Figmarket](https://www.figmarket.fr/)
 - [Fungames](https://fungamesnet.fr/)
 - [Goupiya](https://www.goupiya.com/fr/)
 - [HEXASIM](https://www.hexasim.com/)
@@ -50,6 +51,7 @@
 - [La Fourmi Ludique](https://www.lafourmiludique.fr/)
 - [La Pioche](https://boutiquelapioche.com/)
 - [Le Baron Perché](https://lebaronperche.fr/boutique/)
+- [Le Bazar du Bizarre](https://www.bazardubizarre.com/)
 - [Le Cercle du Jeu](https://lecercledujeu.fr/)
 - [Le Dé Compté](https://ledecompte.fr/)
 - [Le Lutin Ludique](https://lutin-ludique.com/)
@@ -72,6 +74,7 @@
 - [Parkage](https://www.parkage.com/)
 - [Philibert](https://www.philibertnet.com/)
 - [Play-In](https://www.play-in.com/)
+- [Rebel Forge](https://rebelforge.fr/)
 - [Sortilèges](https://www.sortileges.fr/)
 - [Starplayer](https://www.starplayer.fr/)
 - [Trollune](https://www.trollune.fr/)
@@ -102,8 +105,11 @@
 
 ### International (autres)
 
+Quelques sites supplémentaires à l'international (en dehors des pays déjà listés ci-avant).
+
 - [Board And Dice](https://boardanddice.com/)
 - [CFLudique](https://www.cfludique.com/)
+- [De Spelvogel](https://www.despelvogel.com/)
 - [IPA Gameshop](https://ipa-gameshop.com/)
 - [Store Karma Games](https://store.karma-games.com/)
 - [The Game Crafter](https://www.thegamecrafter.com/)
@@ -133,6 +139,8 @@ Editeurs ayant une boutique/shop en ligne.
 ⬆ **[revenir au début](#contents)**
 
 ## Comparateurs
+
+Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule page de résultats issus de toutes les boutiques qu'ils référencent. Malheureusement, aucun à ce jour ne référence toutes les boutiques disponibles.
 
 ### France
 
