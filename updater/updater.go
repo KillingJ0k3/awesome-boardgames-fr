@@ -63,18 +63,20 @@ func generate(templateFile, targetFile, dataDirectory string) error {
 		VPC_DE            []map[string]any
 		VPC_BE            []map[string]any
 		VPC_WORLD         []map[string]any
+		STL               []map[string]any
 	}{
 		Title:             "Awesome Boardgames (FR)",
 		Comparators:       data["comparators"],
+		Comparators_FR:    filter(data["comparators"], []string{"fr"}),
+		Comparators_WORLD: filter(data["comparators"], []string{"de", "be", "international"}),
 		Editors:           data["editors"],
 		General:           data["general"],
 		VPC:               data["vpc"], // just in case ...
-		Comparators_FR:    filter(data["comparators"], []string{"fr"}),
-		Comparators_WORLD: filter(data["comparators"], []string{"de", "be", "international"}),
 		VPC_FR:            filter(data["vpc"], []string{"fr"}),
 		VPC_DE:            filter(data["vpc"], []string{"de"}),
 		VPC_BE:            filter(data["vpc"], []string{"be"}),
 		VPC_WORLD:         filter(data["vpc"], []string{"international"}),
+		STL:               data["stl"],
 	}
 
 	if err := tpl.Execute(outputFile, context); err != nil {

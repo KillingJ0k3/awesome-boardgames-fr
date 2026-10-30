@@ -2,21 +2,25 @@ const DATA_FILES = [
   { file: 'comparators.yaml', label: 'Comparateurs' },
   { file: 'editors.yaml', label: 'Editeurs' },
   { file: 'general.yaml', label: 'General' },
-  { file: 'vpc.yaml', label: 'VPC' }
+  { file: 'vpc.yaml', label: 'VPC' },
+  { file: 'stl.yaml', label: 'STL' }
 ];
 
 const searchInput = document.getElementById('searchInput');
+const clearSearchButton = document.getElementById('clearSearchButton');
 const selectAllButton = document.getElementById('selectAllButton');
 const deselectAllButton = document.getElementById('deselectAllButton');
 const openAllButton = document.getElementById('openAllButton');
 const clearTagsButton = document.getElementById('clearTagsButton');
 const clearCategoriesButton = document.getElementById('clearCategoriesButton');
 const clearCountriesButton = document.getElementById('clearCountriesButton');
+const clearAllFiltersButton = document.getElementById('clearAllFiltersButton');
 const tagFilter = document.getElementById('tagFilter');
 const categoryFilter = document.getElementById('categoryFilter');
 const countryFilter = document.getElementById('countryFilter');
 const statusEl = document.getElementById('status');
 const sitesList = document.getElementById('sitesList');
+const selectionCount = document.getElementById('selectionCount');
 
 let websites = [];
 let allTags = [];
@@ -174,6 +178,7 @@ function renderSelectOptions(select, values) {
   select.innerHTML = values
     .map((value) => `<option value="${value.value}">${value.label}</option>`)
     .join('');
+  select.size = Math.max(values.length, 1);
 }
 
 function renderWebsites(query) {
@@ -187,7 +192,7 @@ function renderWebsites(query) {
     return matchesCategory && matchesTags && matchesCountry;
   });
 
-  statusEl.textContent = `${filteredSites.length} / ${websites.length} sites visibles. La recherche sera ajoutée au sein de chaque URL (permettant d'utiliser un CTRL+CLICK). Autorisez au niveau du navigateur la fonction 'pop-up & redirects' dans les préférences pour que le bouton 'Ouvrir tout' fonctionne (sur tous les éléments sélectionnés).`;
+  statusEl.textContent = `${filteredSites.length} adresse${filteredSites.length === 1 ? '' : 's'} sur ${websites.length}`;
 
   const fragment = document.createDocumentFragment();
 
@@ -199,14 +204,22 @@ function renderWebsites(query) {
     const checkbox = document.createElement('input');
     checkbox.id = `site-${index}`;
     checkbox.type = 'checkbox';
-    checkbox.disabled = !Boolean((site.search || '').trim());
+    const isRemoved = Boolean((site.date_removed || '').trim());
+    checkbox.disabled = isRemoved || !Boolean((site.search || '').trim());
 
     const link = document.createElement('a');
     const href = buildSearchUrl(site, query);
-    link.href = href;
+    if (isRemoved) {
+      link.setAttribute('aria-disabled', 'true');
+    } else {
+      link.href = href;
+    }
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.textContent = site.name;
+    if (site.date_added) {
+      link.title = `Ajouté le ${site.date_added}`;
+    }
 
     label.appendChild(checkbox);
     label.appendChild(link);
@@ -214,11 +227,18 @@ function renderWebsites(query) {
   });
 
   sitesList.replaceChildren(fragment);
+  updateSelectionControls();
+}
+
+function updateSelectionControls() {
+  const selectedCount = sitesList.querySelectorAll('input[type="checkbox"]:checked').length;
+  selectionCount.textContent = `${selectedCount} sélectionné${selectedCount === 1 ? '' : 's'}`;
+  openAllButton.disabled = selectedCount === 0;
 }
 
 async function loadWebsites() {
   try {
-    statusEl.textContent = 'Loading websites…';
+    statusEl.textContent = 'Chargement des adresses…';
     const loaded = [];
 
     for (const categoryConfig of DATA_FILES) {
@@ -262,13 +282,19 @@ async function loadWebsites() {
     // statusEl.textContent = `${filteredSites.length} / ${websites.length} sites visibles. La recherche sera ajoutée au sein de chaque URL. Autorisez au niveau du navigateur la fonction 'pop-up & redirects' dans les préférences pour que le bouton 'Ouvrir tout' fonctionne.`;
   } catch (error) {
     console.error(error);
-    statusEl.textContent = 'Unable to load the data files. Please open the page through a local web server.';
-    sitesList.innerHTML = '<div class="empty-state">The YAML files could not be loaded.</div>';
+    statusEl.textContent = 'Chargement impossible';
+    sitesList.innerHTML = '<div class="empty-state">Les fichiers de données n’ont pas pu être chargés. Ouvrez cette page depuis un serveur web local.</div>';
   }
 }
 
 searchInput.addEventListener('input', (event) => {
   renderWebsites(event.target.value);
+});
+
+clearSearchButton.addEventListener('click', () => {
+  searchInput.value = '';
+  searchInput.focus();
+  renderWebsites('');
 });
 
 tagFilter.addEventListener('change', () => {
@@ -304,6 +330,15 @@ clearCountriesButton.addEventListener('click', () => {
   renderWebsites(searchInput.value);
 });
 
+clearAllFiltersButton.addEventListener('click', () => {
+  [countryFilter, categoryFilter, tagFilter].forEach((filter) => {
+    Array.from(filter.options).forEach((option) => {
+      option.selected = false;
+    });
+  });
+  renderWebsites(searchInput.value);
+});
+
 function setAllSelection(checked) {
   const checkboxes = Array.from(sitesList.querySelectorAll('input[type="checkbox"]'));
   checkboxes.forEach((checkbox) => {
@@ -311,7 +346,14 @@ function setAllSelection(checked) {
       checkbox.checked = checked;
     }
   });
+  updateSelectionControls();
 }
+
+sitesList.addEventListener('change', (event) => {
+  if (event.target.matches('input[type="checkbox"]')) {
+    updateSelectionControls();
+  }
+});
 
 selectAllButton.addEventListener('click', () => {
   setAllSelection(true);

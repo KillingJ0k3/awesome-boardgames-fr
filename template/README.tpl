@@ -16,6 +16,7 @@
     - [Belgique](#belgique)
     - [International (autres)](#international-autres)
   - [Boutiques d'éditeurs](#boutiques-déditeurs)
+  - [STL](#stl)
   - [Comparateurs](#comparateurs)
     - [France](#france-1)
     - [International](#international)
@@ -67,6 +68,18 @@ Editeurs ayant une boutique/shop en ligne.
 
 ⬆ **[revenir au début](#contents)**
 
+
+
+## STL 
+
+Boutiques en ligne proposant de l'impression de fichiers STL via une imprimante 3D (résine, filament).
+
+{{ range .STL -}}
+- [{{ .name }}]({{ .url }}){{ if .description }} : {{ .description }}{{ end }}
+{{ end }}
+
+
+
 ## Comparateurs
 
 Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule page de résultats issus de toutes les boutiques qu'ils référencent. Malheureusement, aucun à ce jour ne référence toutes les boutiques disponibles.
@@ -88,6 +101,7 @@ Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule
 ⬆ **[revenir au début](#contents)**
 
 
+
 ## Général
 
 Sites généraux en lien avec le jeu de société
@@ -97,4 +111,5 @@ Sites généraux en lien avec le jeu de société
 {{ end }}
 
 ⬆ **[revenir au début](#contents)**
+
 

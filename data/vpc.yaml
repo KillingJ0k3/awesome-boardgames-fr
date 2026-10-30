@@ -106,7 +106,7 @@
   search: "/dhtml/resultat_recherche.php?keywords="
   country: fr
 
-# Not considered as there are dbouts about this site ...
+# Not considered as there are doubts about this site ...
 #- name: Jeux Malins
 #  url: https://www.jeuxmalins.com/
 #  search: "/?s="
@@ -350,3 +350,33 @@
   url: https://www.bazardubizarre.com/
   search: "?_en_stock=1&s="
   country: fr
+
+- name: Toy Center
+  url: https://toy-center.fr/
+  search: "/categories.php?new_search="
+  country: fr
+
+- name:  Troll2Jeux
+  url: https://troll2jeux.com/
+  search: "/recherche?controller=search_magic_scope=full&search&s="
+  country: fr
+
+- name:  Le Gremlin
+  url: https://shop.legremlin.fr/
+  search: "/recherche?controller=search&s="
+  country: fr
+
+- name:  1001 Hobbies
+  url: https://www.1001hobbies.fr/
+  search: "/fr/toutes-les-maquettes-avec-1001hobbiesfr?s="
+  country: fr
+
+- name: Wayland
+  url: https://www.waylandgames.co.uk/
+  search: "/search?query="
+  country: uk
+
+- name: SPL Collections
+  url: https://spl-collections.com/
+  search: "/search?q="
+  country: fr  
