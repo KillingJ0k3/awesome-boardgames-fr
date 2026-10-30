@@ -16,6 +16,7 @@
     - [Belgique](#belgique)
     - [International (autres)](#international-autres)
   - [Boutiques d'éditeurs](#boutiques-déditeurs)
+  - [STL](#stl)
   - [Comparateurs](#comparateurs)
     - [France](#france-1)
     - [International](#international)
@@ -25,6 +26,7 @@
 
 ### France
 
+- [1001 Hobbies](https://www.1001hobbies.fr/)
 - [AdayAgame](https://www.adayagame.fr/)
 - [Agora Jeux](https://www.agorajeux.com/)
 - [Archi Chouette](https://archi-chouette.fr/)
@@ -54,6 +56,7 @@
 - [Le Bazar du Bizarre](https://www.bazardubizarre.com/)
 - [Le Cercle du Jeu](https://lecercledujeu.fr/)
 - [Le Dé Compté](https://ledecompte.fr/)
+- [Le Gremlin](https://shop.legremlin.fr/)
 - [Le Lutin Ludique](https://lutin-ludique.com/)
 - [Le Passe-Temps](https://www.le-passe-temps.com/)
 - [Le Repaire du Dragon](https://www.lerepairedudragon.fr/)
@@ -76,7 +79,10 @@
 - [Play-In](https://www.play-in.com/)
 - [Rebel Forge](https://rebelforge.fr/)
 - [Sortilèges](https://www.sortileges.fr/)
+- [SPL Collections](https://spl-collections.com/)
 - [Starplayer](https://www.starplayer.fr/)
+- [Toy Center](https://toy-center.fr/)
+- [Troll2Jeux](https://troll2jeux.com/)
 - [Trollune](https://www.trollune.fr/)
 - [Ultra Jeux](https://www.ultrajeux.com/)
 - [Un Deux Trois Jeux](https://www.undeuxtroisjeux.com/)
@@ -138,6 +144,17 @@ Editeurs ayant une boutique/shop en ligne.
 
 ⬆ **[revenir au début](#contents)**
 
+
+
+## STL 
+
+Boutiques en ligne proposant de l'impression de fichiers STL via une imprimante 3D (résine, filament).
+
+- [Le Grenier de la Chance](https://grenier-de-la-chance.fr/)
+
+
+
+
 ## Comparateurs
 
 Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule page de résultats issus de toutes les boutiques qu'ils référencent. Malheureusement, aucun à ce jour ne référence toutes les boutiques disponibles.
@@ -160,6 +177,7 @@ Les comparateurs de prix permettent d'obtenir une vue aggrégée, avec une seule
 ⬆ **[revenir au début](#contents)**
 
 
+
 ## Général
 
 Sites généraux en lien avec le jeu de société
@@ -174,4 +192,5 @@ Sites généraux en lien avec le jeu de société
 
 
 ⬆ **[revenir au début](#contents)**
+
 
